@@ -1,0 +1,8 @@
+Metadata-Version: 2.4
+Name: datascience_course
+Version: 0.0.1
+Summary: Utilities for DS notebooks (readers, tools)
+Author: Giacomo Da Re
+Requires-Python: >=3.10
+Requires-Dist: pandas>=2.0
+Requires-Dist: numpy>=1.24

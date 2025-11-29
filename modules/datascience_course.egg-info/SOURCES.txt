@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+modules/datascience_course.egg-info/PKG-INFO
+modules/datascience_course.egg-info/SOURCES.txt
+modules/datascience_course.egg-info/dependency_links.txt
+modules/datascience_course.egg-info/requires.txt
+modules/datascience_course.egg-info/top_level.txt
+modules/reader_tools/GenericReader.py
+modules/reader_tools/__init__.py

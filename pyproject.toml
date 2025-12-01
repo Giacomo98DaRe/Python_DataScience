@@ -14,4 +14,7 @@ dependencies = [
 ]
 
 [tool.setuptools.packages.find]
-where = ["modules"]            
+where = ["."] # Utilities is in the root folder, but that's my module folder
+# Include - Exclude since the projects is easy. If not, better to directly add a src folder       
+include = ["utilities*"]         
+exclude = ["data*", "LessonNotebooks*", "Projects*", "CheatSheets*"] 

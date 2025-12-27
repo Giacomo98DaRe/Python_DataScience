@@ -2,5 +2,4 @@
 datascience_course.egg-info
 
 # PY CACHE
-utilities/reader_tools/__pycache__/
-utilities/__pycache__/
+**/__pycache__/

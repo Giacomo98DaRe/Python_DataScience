@@ -46,5 +46,5 @@ if __name__ == "__main__":
     # Pivot method
     # Pivoting(df_gdp)
     
-    # Pivot table method
+    # Pivot table method. It is a pivoting method with aggregation
     Pivoting_table(supermarket_df)

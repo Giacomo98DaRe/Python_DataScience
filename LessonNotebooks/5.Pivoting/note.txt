@@ -1,0 +1,1 @@
+Python project trial. For this kind of project, the notebook environment would be more useful

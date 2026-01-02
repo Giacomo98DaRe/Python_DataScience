@@ -16,3 +16,16 @@ def DataframeFromCSV(csv_name, encoding=None, setIndexName=None):
         df.set_index(setIndexName, inplace=True)        
     
     return df
+
+def DataframeFromExcel(excel_name, setIndexName=None):
+    base_path = os.path.dirname(os.path.abspath(__file__))
+    
+    os.getcwd()
+    excel_path = os.path.normpath(os.path.join(base_path, "..", "..", "data", excel_name))
+    
+    df = pd.read_excel(excel_path)
+
+    if(setIndexName):
+        df.set_index(setIndexName, inplace=True)        
+    
+    return df
